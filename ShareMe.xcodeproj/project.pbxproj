@@ -14,6 +14,13 @@
 		49559D9F219CEFE20010FDE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49559D9D219CEFE20010FDE0 /* LaunchScreen.storyboard */; };
 		49559DAA219CEFE20010FDE0 /* ShareMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49559DA9219CEFE20010FDE0 /* ShareMeTests.swift */; };
 		49559DB5219CEFE20010FDE0 /* ShareMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49559DB4219CEFE20010FDE0 /* ShareMeUITests.swift */; };
+		49559DC3219CF04A0010FDE0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49559DC2219CF0490010FDE0 /* GoogleService-Info.plist */; };
+		4974FE63219D0A1400A1E932 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974FE62219D0A1400A1E932 /* TaskCell.swift */; };
+		4985699E21BB823F00798AE5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4985699D21BB823F00798AE5 /* TableViewCell.swift */; };
+		498569A021BB8A8E00798AE5 /* NotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4985699F21BB8A8E00798AE5 /* NotesListViewController.swift */; };
+		5DF6BEB8626FF45A306E2E4B /* Pods_ShareMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E61A973B4D8B1E87313B52B /* Pods_ShareMeUITests.framework */; };
+		B4230E13C5AD96CC28B2DF18 /* Pods_ShareMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2FE46767424D99C84A803C6 /* Pods_ShareMe.framework */; };
+		C439839D5C101EA46C44F515 /* Pods_ShareMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F169AE83C631FA1404158BF /* Pods_ShareMeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E61A973B4D8B1E87313B52B /* Pods_ShareMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49559D91219CEFE00010FDE0 /* ShareMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49559D94219CEFE00010FDE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49559D96219CEFE00010FDE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,18 @@
 		49559DB0219CEFE20010FDE0 /* ShareMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49559DB4219CEFE20010FDE0 /* ShareMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareMeUITests.swift; sourceTree = "<group>"; };
 		49559DB6219CEFE20010FDE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49559DC2219CF0490010FDE0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4974FE62219D0A1400A1E932 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		4985699D21BB823F00798AE5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		4985699F21BB8A8E00798AE5 /* NotesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListViewController.swift; sourceTree = "<group>"; };
+		61207E1A1F06F8FF65625E9C /* Pods-ShareMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareMeTests/Pods-ShareMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F169AE83C631FA1404158BF /* Pods_ShareMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		909EBBEF5AFED1E796FBC9E1 /* Pods-ShareMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareMeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareMeUITests/Pods-ShareMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9610D2A6BFA5FD1D882F33EF /* Pods-ShareMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareMeTests/Pods-ShareMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		997AC373330F7D9A689B106F /* Pods-ShareMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareMe/Pods-ShareMe.release.xcconfig"; sourceTree = "<group>"; };
+		B31E172BFE9F9C45A8A632D4 /* Pods-ShareMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareMeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareMeUITests/Pods-ShareMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D054B7AC622F8F797EB63471 /* Pods-ShareMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareMe/Pods-ShareMe.debug.xcconfig"; sourceTree = "<group>"; };
+		F2FE46767424D99C84A803C6 /* Pods_ShareMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4230E13C5AD96CC28B2DF18 /* Pods_ShareMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C439839D5C101EA46C44F515 /* Pods_ShareMeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF6BEB8626FF45A306E2E4B /* Pods_ShareMeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				49559DA8219CEFE20010FDE0 /* ShareMeTests */,
 				49559DB3219CEFE20010FDE0 /* ShareMeUITests */,
 				49559D92219CEFE00010FDE0 /* Products */,
+				F94093B25568C0916D96F356 /* Pods */,
+				FDB5CB8A6B47F6B5A9E06622 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +125,13 @@
 				49559D94219CEFE00010FDE0 /* AppDelegate.swift */,
 				49559D96219CEFE00010FDE0 /* ViewController.swift */,
 				49559D98219CEFE00010FDE0 /* Main.storyboard */,
+				4974FE62219D0A1400A1E932 /* TaskCell.swift */,
+				4985699D21BB823F00798AE5 /* TableViewCell.swift */,
+				4985699F21BB8A8E00798AE5 /* NotesListViewController.swift */,
 				49559D9B219CEFE20010FDE0 /* Assets.xcassets */,
 				49559D9D219CEFE20010FDE0 /* LaunchScreen.storyboard */,
 				49559DA0219CEFE20010FDE0 /* Info.plist */,
+				49559DC2219CF0490010FDE0 /* GoogleService-Info.plist */,
 			);
 			path = ShareMe;
 			sourceTree = "<group>";
@@ -125,6 +154,29 @@
 			path = ShareMeUITests;
 			sourceTree = "<group>";
 		};
+		F94093B25568C0916D96F356 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D054B7AC622F8F797EB63471 /* Pods-ShareMe.debug.xcconfig */,
+				997AC373330F7D9A689B106F /* Pods-ShareMe.release.xcconfig */,
+				61207E1A1F06F8FF65625E9C /* Pods-ShareMeTests.debug.xcconfig */,
+				9610D2A6BFA5FD1D882F33EF /* Pods-ShareMeTests.release.xcconfig */,
+				909EBBEF5AFED1E796FBC9E1 /* Pods-ShareMeUITests.debug.xcconfig */,
+				B31E172BFE9F9C45A8A632D4 /* Pods-ShareMeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDB5CB8A6B47F6B5A9E06622 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE46767424D99C84A803C6 /* Pods_ShareMe.framework */,
+				7F169AE83C631FA1404158BF /* Pods_ShareMeTests.framework */,
+				1E61A973B4D8B1E87313B52B /* Pods_ShareMeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49559DB9219CEFE20010FDE0 /* Build configuration list for PBXNativeTarget "ShareMe" */;
 			buildPhases = (
+				00785C302D8D9FCD62AD28D2 /* [CP] Check Pods Manifest.lock */,
 				49559D8D219CEFE00010FDE0 /* Sources */,
 				49559D8E219CEFE00010FDE0 /* Frameworks */,
 				49559D8F219CEFE00010FDE0 /* Resources */,
+				DFF25B842B3AC6B0E9B5C1C1 /* [CP] Embed Pods Frameworks */,
+				A394408C76E0707508B0D091 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49559DBC219CEFE20010FDE0 /* Build configuration list for PBXNativeTarget "ShareMeTests" */;
 			buildPhases = (
+				0CE981CC3032F8521AD790B8 /* [CP] Check Pods Manifest.lock */,
 				49559DA1219CEFE20010FDE0 /* Sources */,
 				49559DA2219CEFE20010FDE0 /* Frameworks */,
 				49559DA3219CEFE20010FDE0 /* Resources */,
@@ -167,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49559DBF219CEFE20010FDE0 /* Build configuration list for PBXNativeTarget "ShareMeUITests" */;
 			buildPhases = (
+				F407863EA75AB5282B5C4CE7 /* [CP] Check Pods Manifest.lock */,
 				49559DAC219CEFE20010FDE0 /* Sources */,
 				49559DAD219CEFE20010FDE0 /* Frameworks */,
 				49559DAE219CEFE20010FDE0 /* Resources */,
@@ -193,13 +250,16 @@
 				TargetAttributes = {
 					49559D90219CEFE00010FDE0 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
 					};
 					49559DA4219CEFE20010FDE0 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
 						TestTargetID = 49559D90219CEFE00010FDE0;
 					};
 					49559DAF219CEFE20010FDE0 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
 						TestTargetID = 49559D90219CEFE00010FDE0;
 					};
 				};
@@ -230,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49559D9F219CEFE20010FDE0 /* LaunchScreen.storyboard in Resources */,
+				49559DC3219CF04A0010FDE0 /* GoogleService-Info.plist in Resources */,
 				49559D9C219CEFE20010FDE0 /* Assets.xcassets in Resources */,
 				49559D9A219CEFE00010FDE0 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +312,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00785C302D8D9FCD62AD28D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShareMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CE981CC3032F8521AD790B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShareMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A394408C76E0707508B0D091 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShareMe/Pods-ShareMe-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareMe/Pods-ShareMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFF25B842B3AC6B0E9B5C1C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShareMe/Pods-ShareMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareMe/Pods-ShareMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F407863EA75AB5282B5C4CE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShareMeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49559D8D219CEFE00010FDE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				49559D97219CEFE00010FDE0 /* ViewController.swift in Sources */,
+				4985699E21BB823F00798AE5 /* TableViewCell.swift in Sources */,
+				498569A021BB8A8E00798AE5 /* NotesListViewController.swift in Sources */,
+				4974FE63219D0A1400A1E932 /* TaskCell.swift in Sources */,
 				49559D95219CEFE00010FDE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,9 +605,11 @@
 		};
 		49559DBA219CEFE20010FDE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D054B7AC622F8F797EB63471 /* Pods-ShareMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DH5A6BDTA;
 				INFOPLIST_FILE = ShareMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,16 +617,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.ilstu.Julian.ShareMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		49559DBB219CEFE20010FDE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997AC373330F7D9A689B106F /* Pods-ShareMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DH5A6BDTA;
 				INFOPLIST_FILE = ShareMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,13 +636,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.ilstu.Julian.ShareMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		49559DBD219CEFE20010FDE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61207E1A1F06F8FF65625E9C /* Pods-ShareMeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -474,7 +656,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.ilstu.Julian.ShareMeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareMe.app/ShareMe";
 			};
@@ -482,6 +664,7 @@
 		};
 		49559DBE219CEFE20010FDE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9610D2A6BFA5FD1D882F33EF /* Pods-ShareMeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,7 +677,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.ilstu.Julian.ShareMeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareMe.app/ShareMe";
 			};
@@ -502,6 +685,7 @@
 		};
 		49559DC0219CEFE20010FDE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 909EBBEF5AFED1E796FBC9E1 /* Pods-ShareMeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -513,7 +697,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.ilstu.Julian.ShareMeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ShareMe;
 			};
@@ -521,6 +705,7 @@
 		};
 		49559DC1219CEFE20010FDE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31E172BFE9F9C45A8A632D4 /* Pods-ShareMeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,7 +717,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.ilstu.Julian.ShareMeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ShareMe;
 			};
